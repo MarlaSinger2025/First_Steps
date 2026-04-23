@@ -6,6 +6,7 @@
     <title>Contact</title>
 </head>
 <body>
+    <header class="header">
     <nav>
     <ul>
         <li><a href="../../index.html">Home</a></li>
@@ -13,13 +14,13 @@
         <li><a href="#">Contact</a></li>
     </ul>
     </nav>
-    <header>
-        <h1>Contact Us</h1>
     </header>
+    <main class="main">
+        <h1>Contact Us</h1>
     <section id="contactInfo">
         <ul>
-            <li><b>call us:</b> +49 (0) 30 123 456</li>
-            <li><b>write us:</b> contact@brewedawakening.de</li>
+            <li><b>call us:</b><a href="tel: +49 (0) 30 123 456"> +49 (0) 30 123 456</a></li>
+            <li><b>write us:</b><a href="mailto:contact@brewedawakening.de">contact@brewedawakening.de</a></li>
             <li><b>visit us:</b> Bauerstraße 15, 12345 Berlin</li>
         </ul>
     </section>
@@ -27,19 +28,23 @@
         <img src="https://images.pexels.com/photos/29472455/pexels-photo-29472455.jpeg" width="300px" alt="Three coffee mugs by ufuk iseloglu">
     <figcaption><small>© ufuk iselogl</small></figcaption>
     </figure>
-    <section id="messageForm">
-        <header>
-            <h2>Message us directly</h2>
-        </header>
+    <section id="contactForm">
         <form>
-            Name: <input type="text"><br>
-            <p></p>
-            Email: <input type="text"><br>
-            <p></p>
-            Message: <textarea></textarea><br>
-            <p></p>
-            <button type="submit">send</button>
+            <fieldset>
+                <legend>Write us a Message</legend><br>
+                <label for="fullName">Full Name:<input type="text" name="fullName" id="fullName" placeholder="Add your name.."></label><br>
+                <p></p>
+                <label for="email">Email:<input type="email" name="email" id="email" placeholder="Add your email.."></label><br>
+                <p></p>
+                 <label for="message">Message:</label><textarea name="message" id="message"></textarea><br>
+                <p></p>
+                <button type="submit">send</button>
+            </fieldset>
         </form>
     </section>
+    </main>
 </body>
+<footer class="footer">
+        <p>© 2026 Brewed Awakening Berlin</p>
+    </footer>
 </html>
