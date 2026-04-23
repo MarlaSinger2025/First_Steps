@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Code up your life - Coding School</h1>
+    </header>
+    <main class="main">
+        <section id="SignUpForm">
+            <h2>Sign up form</h2>
+            <form>
+                <fieldset>
+                    <legend>Sign up here</legend>
+                    <p></p>
+                    <label for="firstName">First name:<input type="text" name="firstName" id="firstName" placeholder="Add your first name.."></label>
+                    <label for="lastName">Last name: <input type="text" name="lastName" id="lastName" placeholder="Add your last name.."></label><br>
+                    <p></p>
+                    <label for="email">Email: <input type="email" name="email" id="email" placeholder="Add your email.." required></label><br>
+                    <p></p>
+                    <label for="phonenumber">Phonenumber:<input type="tel" name="phonenumber" id="phonenumber" placeholder="Add your phonenumber.."> </label><br>
+                    <p></p>
+                    <label for="selectedCourse">Choose your course:</label> 
+                        <select name="courses" id="selectedCourse" required>
+                            <option value="">--Select a course--</option>
+                            <option value="courseA">Course A</option>
+                            <option value="courseB">Course B</option>
+                            <option value="courseC">Course C</option>
+                        </select>
+                        <p></p>
+                    <article>How did you find our coding school? (choose one)</article>
+                      <input type="radio" id="instagram" name="promo" value="Instagram">
+                      <label for="instagram">Instagram</label><br>
+                      <input type="radio" id="facebook" name="promo" value="Facebook">
+                      <label for="facebook">Facebook</label><br> 
+                      <input type="radio" id="people" name="promo" value="People">
+                      <label for="people">Friends/Family</label><br>
+                      <input type="radio" id="ads" name="promo" value="Advertising">
+                      <label for="ads">Advertising</label><br>
+                      <p></p>
+                    <input type="checkbox" id="subscribe" name="newsletter" value="Subscribe">
+                    <label for="subscribe">I would like to get the newsletter</label><br>
+                    <p></p>
+                    <button type="submit">submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
