@@ -54,3 +54,17 @@ figure img {
     aspect-ratio: 1;
     border-radius: 50%;
 }
+
+figure a {
+    color:inherit;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+figure a:hover {
+    color:rgb(129, 35, 118)
+}
+
+#dogs h2 {
+    margin-bottom: 1rem;
+}
