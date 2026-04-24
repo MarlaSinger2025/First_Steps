@@ -4,3 +4,53 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(252, 228, 242) ;
+}
+
+header {
+    padding: 2rem 4rem;
+    border-bottom:2px solid rgb(135, 0, 70);
+}
+
+h1, h1+p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main {
+    margin: 2rem 4rem;
+}
+
+/* section {
+    margin-bottom: 2.5rem;
+} */
+
+section {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    /* max-width: 80ch; */
+    padding: 20px;
+    margin-bottom: 1.5rem;
+    border-radius: 30px;
+    background-color: rgb(255, 249, 252);
+    line-height: 1.5;
+}
+
+li {
+    list-style-type:circle;
+    line-height: 2;
+    list-style: inside;
+    list-style-image: url("../../images/dog-paw-16.png");
+}
+
+figure {
+    display: inline-block;
+    margin:1rem;
+}
+
+figure img {
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
