@@ -38,7 +38,18 @@ header {
     gap:20px;
 }
 
-/* .button {
+.button {
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 5px 10px;
+    background-color: inherit;
+}
+
+/* #button {
+ 
 } */
